@@ -30,3 +30,93 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  #headshot {
+		display: block;
+  }
+	img#headshot {
+		width: 100%;
+		height: 100%;
+		}
+	p {
+		font-size: 1.2em;
+	}
+	.main-content {
+		margin: 0px 20px;
+	}
+	div.right {
+		float: left;
+		width: 100%;
+	}
+	header, .experience {
+		border: none;
+		padding: 10px;
+	}
+	.right {
+		float: left;
+		width: 100%;
+	}
+	.left {
+		float: left;
+		width: 100%;
+	}
+	h1, h2, h3, h4, h5 {
+		float: left;
+		width: 100%;
+		font-size: 1.5em;
+	}
+	small {
+		font-size: 1.1em;
+	}
+	ul {
+		font-size: 1.5em;
+	}
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+  #headshot {
+		display: block;
+  }
+	img#headshot {
+		width: 60%;
+		height: 60%;
+		}
+	p {
+		font-size: 1.5em;
+	}
+	.main-content {
+		margin: 0px 20px;
+	}
+	div.right {
+		float: left;
+		width: 100%;
+	}
+	header, .experience {
+		border: none;
+		padding: 10px;
+	}
+	.right {
+		float: left;
+		width: 100%;
+	}
+	.left {
+		float: left;
+		width: 100%;
+	}
+	h1, h2, h3, h4, h5 {
+		float: left;
+		width: 100%;
+		font-size: 2em;
+	}
+	small {
+		font-size: 1.5em;
+	}
+	ul {
+		font-size: 1.5em;
+	}
+}
+
+/* make picture bigger */
+/* make text bigger */

@@ -18,3 +18,55 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+  .project {
+    width: 100%;
+    float: left;
+  }
+  .tile {
+  	display: block;
+    width: 100%;
+    border: none;
+    border-top: 1px solid black;
+  }
+  #headshot {
+    width: 90%;
+    display: block;
+    height: 90%;
+  }
+  div {
+    font-size: 1.1em;
+  }
+  .screenshot {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+
+@media screen and (max-width: 1100px) and (min-width: 600px) {
+  .project {
+    width: 100%;
+    float: left;
+  }
+  .tile {
+  	display: block;
+    width: 100%;
+    border: none;
+    border-top: 1px solid black;
+  }
+  #headshot {
+    width: 60%;
+    height: 60%;
+    display: block;
+    }
+  div {
+      font-size: 1.1em;
+    }
+  .screenshot {
+    width: 40%;
+    height: 40%;
+  }
+    /*having some problems with centering the image  */
+}
